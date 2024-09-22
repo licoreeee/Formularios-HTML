@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - Victoria Vega</title>
+</head>
+<body>
+    <header>
+        <h1>Students Data Entry Form</h1>
+    </header>
+    <main>
+        <form>
+        <label for="nombre">Student Name:</label>
+        <input type="text" name="nombre">
+        <br><br>
+        <label for="correo">Email:</label>
+        <input type="email" name="email">
+        <br><br>
+        <div>
+        <label for="genero">Gender:</label>
+        <input type="radio" name="genero" value="masculino">
+        <label for="masculino">Boy</label>
+        <input type="radio" name="genero" value="masculino">
+        <label for="femenino">Girl</label>
+        </div>
+        <br>
+        <div>
+        <label for="materia">Subjects:</label>
+        <input type="checkbox" name="tamil">
+        <label for="tamil">Tamil</label>
+        <input type="checkbox" name="telugu">
+        <label for="telugu">Telugu</label>
+        <input type="checkbox" name="ingles">
+        <label for="ingles">English</label>
+        <input type="checkbox" name="fisica">
+        <label for="fisica">Physics</label>
+        <input type="checkbox" name="economia">
+        <label for="economia">Economics</label>
+        </div>
+        <br>
+        <label for="ciudades">City / Town:</label>
+        <select id="ciudades" name="ciudades">
+            <option value="madurai">Madurai</option>
+            <option value="guasave">Guasave</option>
+            <option value="guadalajara">Guadalajara</option>
+            <option value="tamazula">Tamazula</option>
+        </select>
+        <br><br>
+        <label for="comentarios">Comments:</label>
+        <textarea name="comentarios"></textarea>
+        <br><br>
+        <input type="reset" value="Clear">
+        <input type="submit" value="Submit">
+        </form>
+    </main>
+</body>
+</html>
